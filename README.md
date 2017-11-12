@@ -8,6 +8,7 @@ A computer system with active internet connection, MongoDB (shell version: 2.6.1
 
 # How to Deploy?
 Step-1: You need to install MongoDB, npm, NodeJS in your system in order to run the application. <br />
+        ```npm install```
 Step-2: Follow the link to install ```npm``` and ```node``` on your local system. http://blog.teamtreehouse.com/install-node-js-npm-windows <br />
 Step-3: After successful installation of ```npm``` and ```node```, user needs to install the dependent packages that are used in the system. Dependencies in this application:<br /> ```"dependencies": {
     "body-parser": "^1.18.2",
