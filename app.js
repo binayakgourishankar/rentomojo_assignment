@@ -5,7 +5,7 @@ const express=require("express"),
 
 mongoose.connect("mongodb://localhost/mydb");
 
-var CommentSchema=mongoose.Schema({
+const CommentSchema=mongoose.Schema({
    name:String,
    body:String,
    upvote: Number,
